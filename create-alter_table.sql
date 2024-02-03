@@ -45,7 +45,7 @@ CREATE TABLE Cargo(
 
 --1)
 ALTER TABLE Funcionario
-add salario money
+add salario money 
 
 --2)
 ALTER TABLE Dependente
