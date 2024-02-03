@@ -27,12 +27,12 @@ ALTER TABLE Filme
 drop column ator_principal
 
 -- Altera tipo do campo na tabela
--- Tipo Money é exclusivo do SQL Server. Dá pra usar decimal ou float.
+-- Tipo Money Ã© exclusivo do SQL Server. Da pra usar decimal ou float.
 ALTER TABLE Filme
 alter column custo_total money
 
--- Acrescenta a característica 'not null', ou seja, é obrigatório. 
--- Não é permitido que o campo fique vazio
+-- Acrescenta a caracterestica 'not null', ou seja, Ã© obrigatorio. 
+-- Nao Ã© permitido que o campo fique vazio
 ALTER TABLE Filme
 alter column custo_total money not null
 

@@ -59,7 +59,7 @@ values (1, 'Ricardo Ricardes'),
 SELECT * from Departamento
 
 insert into Departamento
-values (1, 'Ciência', null),
+values (1, 'Ciencia', null),
 	   (2, 'Tecnologia', null),
 	   (3, 'Marketing', null),
 	   (4, 'Vendas', null),
@@ -70,7 +70,7 @@ values (1, 'Ciência', null),
 select * from Livro
 
 insert into Livro
-values (1, 'Tanaka Potter e a Não-Aula Filosofal'),
+values (1, 'Tanaka Potter e a Nao-Aula Filosofal'),
 	   (2, 'Tanaka Potter e o Caso de Uso Secreto'),
 	   (3, 'Tanaka Potter e o Pressman de Azkaban'),
 	   (4, 'Tanaka Potter e a Pintura Rupestre de Fogo'),
@@ -82,10 +82,10 @@ select * from Curso
 
 insert into Curso (codCur, NomeCurso, Nro_vagas)
 values (1, 'Engenharia de Software', 0),
-	   (2, 'Administração', 100),
-	   (3, 'Engenharia Eletrônica', 45),
-	   (4, 'Cálculo', 30),
-	   (5, 'Design Gráfico', 60)
+	   (2, 'Administracao', 100),
+	   (3, 'Engenharia Eletronica', 45),
+	   (4, 'Calculo', 30),
+	   (5, 'Design Grafico', 60)
 
 --5 Disciplinas
 
@@ -93,9 +93,9 @@ select * from Disciplina
 
 insert into Disciplina (codDis, NomeDis)
 values (1, 'Diagramas'),
-	   (2, 'Matemática Discreta'),
+	   (2, 'Matematica Discreta'),
 	   (3, 'Eletronica'),
-	   (4, 'Cálculo II'),
+	   (4, 'Calculo II'),
 	   (5, 'Design de Interface')
 
 ---------------------------------------------------
