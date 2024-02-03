@@ -34,7 +34,7 @@ values(200, 'PEPSI')
 SELECT * from Fornecedor
 
 insert into Fornecedor
-values (1, 'Atacad�o', '123456789', '123456789')
+values (1, 'Atacadao', '123456789', '123456789')
 
 -- Cria lista de campos que serao preenchidos
 insert into Fornecedor(RazaoSocial, codFornecedor)
