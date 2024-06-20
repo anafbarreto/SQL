@@ -1,4 +1,4 @@
 # SQL
-Criação e consultas em BD.
+Atividades de criação e consulta em banco de dados. 
 
 
